@@ -50,6 +50,7 @@ describe('myRoute', function () {
 		// Test the response once the ajax call is completed
 		server.respond(function () {
 			expect(response).toBe('<p>some html</p>');
+		});
 	});
 });
 ```
